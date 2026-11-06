@@ -734,8 +734,8 @@
 
 .project-card {
   overflow: hidden;
-  border: 1px solid #e8ece8;
-  border-radius: 9px;
+ border: 1px solid #e9ede9;
+  border-radius: 8px;
   background: #fff;
   transition: transform 180ms ease, box-shadow 180ms ease;
 }

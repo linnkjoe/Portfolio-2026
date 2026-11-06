@@ -27,7 +27,7 @@ function About() {
             desenho de uma base de dados à última interação de uma interface,
             valorizo código limpo, colaboração e atenção ao detalhe.
           </p>
-          <a className="text-link" href="#contacto">
+          <a className="text-link" href="https://github.com/linnkjoe" target="_blank" rel="noopener noreferrer">
             Mais sobre o meu percurso <Icon name="arrowRight" size={17} />
           </a>
         </div>

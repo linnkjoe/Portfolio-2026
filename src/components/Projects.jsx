@@ -1,5 +1,5 @@
-import { projects } from '../data/portfolio.js'
-import Icon from './Icon.jsx'
+import { projects } from "../data/portfolio.js";
+import Icon from "./Icon.jsx";
 
 function ProjectCard({ project }) {
   return (
@@ -16,7 +16,9 @@ function ProjectCard({ project }) {
         ) : (
           <>
             <div className="preview-top">
-              <span className="preview-mark"><Icon name={project.icon} size={19} /></span>
+              <span className="preview-mark">
+                <Icon name={project.icon} size={19} />
+              </span>
               <span className="preview-menu">•••</span>
             </div>
             <div className="preview-content">
@@ -24,7 +26,13 @@ function ProjectCard({ project }) {
               <div className="preview-skeleton preview-skeleton-wide" />
               <div className="preview-skeleton preview-skeleton-short" />
               <div className="preview-chart">
-                <span /><span /><span /><span /><span /><span /><span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
               </div>
             </div>
             <span className="preview-number">{project.number}</span>
@@ -36,7 +44,9 @@ function ProjectCard({ project }) {
         <h3>{project.title}</h3>
         <p className="project-description">{project.description}</p>
         <div className="project-stack">
-          {project.stack.map((item) => <span key={item}>{item}</span>)}
+          {project.stack.map((item) => (
+            <span key={item}>{item}</span>
+          ))}
         </div>
         {(project.githubUrl || project.liveUrl) && (
           <div className="project-actions">
@@ -64,7 +74,7 @@ function ProjectCard({ project }) {
         )}
       </div>
     </article>
-  )
+  );
 }
 
 function Projects() {
@@ -74,20 +84,23 @@ function Projects() {
         <div className="section-heading projects-heading">
           <div>
             <p className="eyebrow">Trabalho selecionado</p>
-            <h2>Projetos em <span>destaque</span></h2>
+            <h2>
+              Projetos em <span>destaque</span>
+            </h2>
           </div>
           <p className="section-intro">
-            Ideias transformadas em produtos digitais, com atenção à arquitetura,
-            à experiência e aos detalhes.
+            Ideias transformadas em produtos digitais, com atenção à
+            arquitetura, à experiência e aos detalhes.
           </p>
         </div>
         <div className="projects-grid">
-          {projects.map((project) => <ProjectCard key={project.number} project={project} />)}
+          {projects.map((project) => (
+            <ProjectCard key={project.number} project={project} />
+          ))}
         </div>
-        
       </div>
     </section>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
