@@ -47,18 +47,7 @@ O `render.yaml` define `NODE_VERSION=22.12.0` apenas para fixar a versão de Nod
 
 O build de produção também pode ser gerado localmente com `npm run build`; os ficheiros resultantes ficam na pasta `dist`.
 =======
-# Portfólio — Nélio Moanga
-
-Portfólio pessoal de **Backend Developer** especializado em **Java e Spring Boot**, com experiência full-stack em React.js. Estudante de Lincenciatura em Informatica na Universidade Eduardo Mondlane (Maputo, Moçambique).
-
-
-## Projectos em destaque
-
-- **Guesthouse Fullstack App**: aplicação web para gestão de guesthouse, com reservas online, controlo de disponibilidade de quartos e acesso por perfis (cliente, gestor, admin). React + Spring Boot + Spring Security.
-
-## Stack do portfólio
-
-React.js · JavaScript (ES6+) · React Router · Bootstrap 5.3 (tema claro)
+ (ES6+) · React Router · Bootstrap 5.3 (tema claro)
 
 ## Como correr localmente
 
