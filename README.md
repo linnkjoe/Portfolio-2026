@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfólio profissional
 
 Portfólio responsivo feito com React e Vite. Os dados pessoais, competências e projetos estão separados dos componentes para facilitar a personalização e a manutenção.
@@ -45,3 +46,30 @@ A aplicação não precisa de variáveis de ambiente próprias, chaves API ou se
 O `render.yaml` define `NODE_VERSION=22.12.0` apenas para fixar a versão de Node.js usada no build. Se configurar o serviço manualmente no dashboard, adicione esta variável nas definições do Render para usar a mesma versão.
 
 O build de produção também pode ser gerado localmente com `npm run build`; os ficheiros resultantes ficam na pasta `dist`.
+=======
+# Portfólio — Nélio Moanga
+
+Portfólio pessoal de **Backend Developer** especializado em **Java e Spring Boot**, com experiência full-stack em React.js. Estudante de Lincenciatura em Informatica na Universidade Eduardo Mondlane (Maputo, Moçambique).
+
+
+## Projectos em destaque
+
+- **Guesthouse Fullstack App**: aplicação web para gestão de guesthouse, com reservas online, controlo de disponibilidade de quartos e acesso por perfis (cliente, gestor, admin). React + Spring Boot + Spring Security.
+
+## Stack do portfólio
+
+React.js · JavaScript (ES6+) · React Router · Bootstrap 5.3 (tema claro)
+
+## Como correr localmente
+
+    git clone https://github.com/linnkjoe/<nome-do-repo>.git
+    cd <nome-do-repo>
+    npm install
+    npm start
+
+## Contacto
+
+- LinkedIn: https://www.linkedin.com/in/linnkjoe/
+- GitHub: [@linnkjoe](https://github.com/linnkjoe)
+- Email: jnelio312@gmail.com
+>>>>>>> 685936b559892e71983318ffa073f482ceec5941
