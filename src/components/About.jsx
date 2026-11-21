@@ -44,7 +44,8 @@ function About() {
           ))}
           <div className="about-note">
             <span><Icon name="spark" size={17} /></span>
-            <p><strong>Boa tecnologia começa com boas perguntas.</strong><br />E uma vontade genuína de fazer melhor.</p>
+            <p><strong>Boa tecnologia começa com 
+              BODC FIU- F OFoas perguntas.</strong><br />E uma vontade genuína de fazer melhor.</p>
           </div>
         </div>
       </div>

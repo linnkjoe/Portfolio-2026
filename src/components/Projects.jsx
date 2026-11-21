@@ -2,6 +2,8 @@ import { projects } from "../data/portfolio.js";
 import Icon from "./Icon.jsx";
 
 function ProjectCard({ project }) {
+  const destinationUrl = project.liveUrl || project.githubUrl;
+
   return (
     <article className={`project-card project-${project.accent}`}>
       <div className="project-preview">
@@ -73,6 +75,15 @@ function ProjectCard({ project }) {
           </div>
         )}
       </div>
+      {destinationUrl && (
+        <a
+          aria-label={`Abrir ${project.title}`}
+          className="project-card-link"
+          href={destinationUrl}
+          rel="noopener noreferrer"
+          target="_blank"
+        />
+      )}
     </article>
   );
 }

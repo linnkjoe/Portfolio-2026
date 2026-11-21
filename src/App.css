@@ -733,11 +733,25 @@
 }
 
 .project-card {
+  position: relative;
   overflow: hidden;
- border: 1px solid #e9ede9;
+  border: 1px solid #e9ede9;
   border-radius: 8px;
   background: #fff;
   transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.project-card-link {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.project-card-link:focus-visible {
+  outline: 3px solid #91b66a;
+  outline-offset: -3px;
 }
 
 .project-card:hover {
@@ -934,6 +948,8 @@
 }
 
 .project-actions {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
